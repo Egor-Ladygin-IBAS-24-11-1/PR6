@@ -105,7 +105,6 @@ HTTPS шифрует содержимое общения, но не скрыва
 В одном из перехваченных HTTP-запросов фигурировал заголовок `Authorization: Basic dmFzeWE6TXlQYXNzd29yZDIwMjQ=`. Было проведено декодирование.
 
 **Команда и результат:**
-```bash
 echo 'dmFzeWE6TXlQYXNzd29yZDIwMjQ=' | base64 -d
 # Вывод: vasya:MyPassword2024
 
