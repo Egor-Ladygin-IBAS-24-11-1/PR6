@@ -35,7 +35,7 @@
 
 **Результат перехвата (`tcpdump -i lo -n -A port 8080`):**
 В ASCII-выводе пакета чётко видны сырые данные HTTP-запроса:
-```text
+
 POST /login HTTP/1.1
 Host: localhost:8080
 User-Agent: curl/7.88.1
